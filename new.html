@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>byKingkhan7654</title>
+  
+</head>
+<body>
+  <div>
+  <h1>
+    FRIENDSHIP QUIZ
+    
+  </h1><ol>
+    <li>Which one of the following things does your friend tuba likes the most?<br>
+      <ul>
+        <li>Cake</li><img class = "pizza" src = "cake.png"><input class = "checkbox"onclick=" dis()"type="checkbox"><img class= "dec"src = "rupanzel.jpg">
+        <li>Ice-Cream</li><img class = "pizza" src ="icecream.png"><input type = "checkbox"onclick="alert('Yeah I like it,thats Correct😊😊')">
+        <li>Pizza</li><img class = "pizza"src = "Pizza.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+        <li>Momos</li><img class = "pizza"src = "momos.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+        
+      </ul></li>
+      
+      <li>Which one of the following is your friend Tuba's previous aim before she chose be an IAS officer? 
+      <ul>
+      <li>Teacher</li><img class="pizza"src = "teacher.png"><input class = "checkbox"onclick=" dis()"type="checkbox"><img class ="ced"src ="snow.png">
+      <li>Doctor</li><img class = "pizza"src ="doctor.png"><input type = "checkbox"onclick="alert('You know!! that! ,thats correct😊😊')">
+      <li>IPS</li><img class="pizza"src="IPS.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+      <li>Engineer</li><img class= "pizza"src="engineer.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+      </ul>
+      </li>
+      <br>
+      
+      <li>Which of these things Tuba likes to do most at home?
+      <ul>
+          <li>Study</li><img class="pizza"src="studying.jpg"><input class = "checkbox"onclick=" dis()"type="checkbox"><img class="dec"src="enna.png"
+          <li>Eating</li><img class="pizza"src="eating.jpg"><input class = "checkbox"onclick=" dis()"type="checkbox">
+          <li>Playing</li><img class ="pizza"src="playing.jpg"><input class = "checkbox"onclick=" dis()"type="checkbox">
+          <li>Sleeping</li><img class="pizza"src="sleeping.jpg"><input type = "checkbox"onclick="alert('Yeah I like it,thats Correct😊😊')">
+    </ul>
+    </li>
+    
+    <li>which one of the following Disney princess is Tuba's favourite?
+    <ul>
+        <li>Rapunzal</li><img class="pizza"src="Rapunzel.jpg"><input class = "checkbox"onclick=" dis()"type="checkbox">
+        <li>Elsa</li><img class="pizza"src="Elsa.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+        <li>Anna</li><img class="pizza"src="Anna.jpeg"><input type = "checkbox"onclick="alert('Yeah I like it,thats Correct😊😊')">
+        <li>Snow White</li><img class="pizza"src="SnowWhite.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+        
+    </ul></li>
+    
+    <li>which one is your friend Tuba's favourite colour?
+    <ul>
+        <li>Black</li><img class="pizza"src="black.png"><input class = "checkbox"onclick=" dis()"type="checkbox"><img class ="dec"src="Elsan.png">
+        <li>White</li><img class="pizza"src="white.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+        <li>Red</li><img class="pizza"src="red.png"><input type = "checkbox"onclick="alert('Yeah I like it,thats Correct😊😊')">
+        <li>Pink</li><img class="pizza"src="pink.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+        
+    </ul>
+    
+    <li>Which thing does Tuba likes the most about Pari and Polina?
+    <ul>
+        <li>their cuteness</li><input class = "checkbox"onclick=" dis()"type="checkbox">
+        <li>their appearance</li><input class = "checkbox"onclick=" dis()"type="checkbox">
+        <li>their helpful and kind nature</li><input class = "checkbox"onclick=" dis()"type="checkbox">
+        <li>EveryThing</li><input type = "checkbox"onclick="alert('Yeah I like that all,thats Correct😊😊')">
+        
+    </ul>
+    <li>
+        Which of these is Tuba's favourite subject? 
+        <ul>
+        <li>Maths</li><img class="pizza"src="maths.jpg"><input class = "checkbox"onclick=" dis()"type="checkbox"><img class="dec"src="Elsa.png">
+        <li>Eng-Lang</li><img class="pizza"src="Lang.png"><input type = "checkbox"onclick="alert('Yeah I like that all,thats Correct😊😊')">
+        <li>History</li><img class="pizza"src="history.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+        <li>Computer</li><img class="pizza"src="computer.png"><input class = "checkbox"onclick=" dis()"type="checkbox">
+    </ul></li>
+  </ol>
+  <button onclick="alert('I Love you Bestie💓💗💕💖')">SECRET MESSAGE</button>
+  </div>
+  <style>
+  body{
+    background-image:url("background.jpg");
+   background-size:cover;
+  }
+  div{
+    background-image:url("hearts.jpg");
+   background-size:cover;
+    color:white;
+    }
+  h1{
+    color:white;
+    font-family:cursive;
+  }
+  .pizza{
+    width:40px
+  }
+  .dec{
+      width:150px;
+      float:right;
+  }
+  .ced{
+      width:150px;
+      float:right;
+  }
+  button{
+      color:skyblue;
+      background:red;
+      border:solid color:none;
+      border-radius:8px;
+      float:right;
+  }
+  
+  </style>
+<Script>
+  const audio = new Audio();
+    audio.src="correct.mp3";
+  const error= new Audio();
+  error.src="error.mp3";
+  function dis(){
+    alert("Not quite,Try Again☺");
+   let checkbox = document.getElementById(".checkbox");
+    checkbox.Checked =  True;
+    
+    audio.play();
+  }
+</Script>
+</body>
+</html>
